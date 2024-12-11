@@ -1,0 +1,19 @@
+{
+    "name": "storessuite/wix-connect",
+    "description": "Adapter between storessuite/storessuite and storessuite/wix.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StoresSuite\\WixConnect\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sarojkalamagar",
+            "email": "sarojkalamagar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
