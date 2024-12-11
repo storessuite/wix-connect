@@ -21,6 +21,8 @@
             "email": "sarojkalamagar@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/database": "^11.35"
+    }
 }
