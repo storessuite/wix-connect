@@ -8,6 +8,13 @@
             "StoresSuite\\WixConnect\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StoresSuite\\Wix\\WixConnectServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "sarojkalamagar",
