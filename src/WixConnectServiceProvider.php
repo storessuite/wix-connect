@@ -14,5 +14,8 @@ class WixConnectServiceProvider extends ServiceProvider
     /**
      * Bootstrap package services
      */
-    public function boot() {}
+    public function boot()
+    {
+        $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
+    }
 }
