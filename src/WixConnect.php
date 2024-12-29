@@ -4,7 +4,7 @@ namespace StoresSuite\WixConnect;
 
 use Illuminate\Support\Facades\DB;
 
-class Connection
+class WixConnect
 {
     /**
      * Create connection between user and site
