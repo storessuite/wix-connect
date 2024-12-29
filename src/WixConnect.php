@@ -21,4 +21,14 @@ class WixConnect
                 'user_id' => $userId
             ]);
     }
+
+    /**
+     * Get user ID of a wix site
+     * 
+     * @param int $wixSiteId
+     * @return int
+     */
+    public function userId(int $wixSiteId): int {
+        
+    }
 }
